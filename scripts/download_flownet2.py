@@ -9,7 +9,7 @@ else:
 	file_id = '1F2h_6e8gyTqxnbmFFW72zsxx_JX0dKFo'	
 	file_name = 'flownet2_pytorch_040.zip'"""
 
-chpt_path = './models/'
+chpt_path = '/content/vid2vid/models'
 if not os.path.isdir(chpt_path):
 	os.makedirs(chpt_path)
 """destination = os.path.join(chpt_path, file_name)

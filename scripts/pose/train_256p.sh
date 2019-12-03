@@ -1,4 +1,4 @@
-python train.py --name pose2body_256p \
+python /content/vid2vid/train.py --name pose2body_256p \
 --dataroot datasets/pose --dataset_mode pose \
 --input_nc 6 --num_D 2 \
 --resize_or_crop randomScaleHeight_and_scaledCrop --loadSize 384 --fineSize 256 \
